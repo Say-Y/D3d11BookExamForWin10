@@ -10,7 +10,9 @@
 #define WAVES_H
 
 #include <Windows.h>
-#include <xnamath.h>
+#include <DirectXmath.h>
+
+using namespace DirectX;
 
 class Waves
 {

@@ -26,8 +26,6 @@
 #include <DirectXPackedVector.h>
 #include "DDSTextureLoader.h"
 #include "dxerr.h"
-using namespace DirectX;
-using namespace DirectX::PackedVector;
 
 //---------------------------------------------------------------------------------------
 // Simple d3d error checker for book demos.
@@ -71,6 +69,9 @@ using namespace DirectX::PackedVector;
 class d3dHelper
 {
 public:
+	static ID3D11ShaderResourceView* CreateTexture2DArraySRV(
+		ID3D11Device* device, ID3D11DeviceContext* context,
+		std::vector<std::wstring>& filenames);
 	static ID3D11ShaderResourceView* CreateRandomTexture1DSRV(ID3D11Device* device);
 };
 
@@ -99,7 +100,7 @@ public:
 };
 
 // Order: left, right, bottom, top, near, far.
-void ExtractFrustumPlanes(XMFLOAT4 planes[6], CXMMATRIX M);
+void ExtractFrustumPlanes(XMFLOAT4 planes[6], CXMMATRIX T);
 
 
 // #define XMGLOBALCONST extern CONST __declspec(selectany)

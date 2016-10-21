@@ -12,7 +12,9 @@
 #ifndef _XNA_COLLISION_H_
 #define _XNA_COLLISION_H_
 
-#include <xnamath.h>
+#include <DirectXmath.h>
+
+using namespace DirectX;
 
 namespace XNA
 {
