@@ -112,10 +112,11 @@
     <ClInclude Include="..\..\Common\dxerr.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Common\Patch_Chapters.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FX\InstancedBasic.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
+    <FxCompile Include="FX\InstancedBasic.fx" />
   </ItemGroup>
 </Project>

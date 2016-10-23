@@ -108,16 +108,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FX\Basic.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
-    <CustomBuild Include="FX\Blur.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <FxCompile Include="FX\BezierTessellation.fx">
       <Filter>FX</Filter>
     </FxCompile>
+    <FxCompile Include="FX\Basic.fx" />
+    <FxCompile Include="FX\Blur.fx" />
   </ItemGroup>
 </Project>

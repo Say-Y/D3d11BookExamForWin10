@@ -108,13 +108,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FX\Basic.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <FxCompile Include="FX\VecAdd.fx">
       <Filter>FX</Filter>
     </FxCompile>
+    <FxCompile Include="FX\Basic.fx" />
   </ItemGroup>
 </Project>

@@ -103,14 +103,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FX\Basic.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
-    <CustomBuild Include="FX\TriTessellation.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="FX\LightHelper.fx">
       <Filter>FX</Filter>
     </None>
@@ -119,5 +111,7 @@
     <FxCompile Include="FX\Blur.fx">
       <Filter>FX</Filter>
     </FxCompile>
+    <FxCompile Include="FX\Basic.fx" />
+    <FxCompile Include="FX\TriTessellation.fx" />
   </ItemGroup>
 </Project>

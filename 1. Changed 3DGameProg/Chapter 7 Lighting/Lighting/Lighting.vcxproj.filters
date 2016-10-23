@@ -48,6 +48,9 @@
     <ClCompile Include="..\..\Common\dxerr.cpp">
       <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Common\DDSTextureLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Common\d3dApp.h">
@@ -74,6 +77,9 @@
     <ClInclude Include="..\..\Common\dxerr.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Common\DDSTextureLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="FX\LightHelper.fx">
@@ -81,8 +87,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FX\Lighting.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
+    <FxCompile Include="FX\Lighting.fx" />
   </ItemGroup>
 </Project>

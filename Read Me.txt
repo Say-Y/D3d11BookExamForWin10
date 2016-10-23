@@ -15,18 +15,13 @@ Build Environment
 폴더 설명
 1. 패치된 예제들
 2. 원본 예제들( download from : http://www.hanb.co.kr/exam/2057 )
-3. 책, 예제 이미지 파일 : 이후 삭제 및 예제 통합 예정
-4. 예제 이미지 파일 : 이후 삭제 및 예제 통합 예정
 
 Folder Description
 1. patched examples
 2. The original examples (download from: http://www.hanb.co.kr/exam/2057)
-3. Books, sample image files: Coming after deletion and integration examples
-4. The sample image files: After deleting and integration plans examples
 
 request : progsecu@gmail.com
-Reference : http://www.d3dcoder.net/Data/Book4/d3d11Win10.htm
+Reference : http://www.d3dcoder.net/Data/Book4/d3d11Win10.htm, etc..
 
-Thanks to the Google Translator.
 Have a nice day.
 end

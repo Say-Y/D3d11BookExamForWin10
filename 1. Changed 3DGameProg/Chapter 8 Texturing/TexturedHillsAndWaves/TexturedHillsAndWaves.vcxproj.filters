@@ -26,11 +26,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FX\Basic.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Common\d3dApp.cpp">
       <Filter>Common</Filter>
     </ClCompile>
@@ -105,5 +100,8 @@
     <ClInclude Include="..\..\Common\dxerr.h">
       <Filter>Common</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\Basic.fx" />
   </ItemGroup>
 </Project>

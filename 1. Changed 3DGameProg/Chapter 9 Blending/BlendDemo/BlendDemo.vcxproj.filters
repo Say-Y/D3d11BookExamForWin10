@@ -108,8 +108,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FX\Basic.fx">
-      <Filter>FX</Filter>
-    </CustomBuild>
+    <FxCompile Include="FX\Basic.fx" />
   </ItemGroup>
 </Project>
