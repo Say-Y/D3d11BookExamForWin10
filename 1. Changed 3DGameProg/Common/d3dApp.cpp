@@ -28,7 +28,7 @@ D3DApp::D3DApp(HINSTANCE hInstance)
 	md3dDriverType(D3D_DRIVER_TYPE_HARDWARE),
 	mClientWidth(800),
 	mClientHeight(600),
-	mEnable4xMsaa(false),
+	mEnable4xMsaa(true),
 	mhMainWnd(0),
 	mAppPaused(false),
 	mMinimized(false),
@@ -162,7 +162,7 @@ void D3DApp::OnResize()
 	// Use 4X MSAA? --must match swap chain MSAA values.
 	if( mEnable4xMsaa )
 	{
-		depthStencilDesc.SampleDesc.Count   = 4;
+		depthStencilDesc.SampleDesc.Count   = 8;
 		depthStencilDesc.SampleDesc.Quality = m4xMsaaQuality-1;
 	}
 	// No MSAA
@@ -422,7 +422,7 @@ bool D3DApp::InitDirect3D()
 	// Use 4X MSAA? 
 	if( mEnable4xMsaa )
 	{
-		sd.SampleDesc.Count   = 4;
+		sd.SampleDesc.Count   = 8;
 		sd.SampleDesc.Quality = m4xMsaaQuality-1;
 	}
 	// No MSAA

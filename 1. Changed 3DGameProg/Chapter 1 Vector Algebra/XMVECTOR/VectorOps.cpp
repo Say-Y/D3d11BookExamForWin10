@@ -15,7 +15,7 @@ ostream& operator<<(ostream& os, FXMVECTOR v)
 	return os;
 }
  
-int main()
+int main() 
 {
 	cout.setf(ios_base::boolalpha);
 
@@ -32,6 +32,12 @@ int main()
 	XMVECTOR v = XMVectorSet(-2.0f, 1.0f, -3.0f, 2.5f);
 	XMVECTOR w = XMVectorSet(0.0f, XM_PIDIV4, XM_PIDIV2, XM_PI);
 
+	cout << "XMVector p                     = " << p << endl;
+	cout << "XMVector q                     = " << q << endl;
+	cout << "XMVector u                     = " << u << endl;
+	cout << "XMVector v                     = " << v << endl;
+	cout << "XMVector w                     = " << w << endl;
+	cout << endl;
 	cout << "XMVectorAbs(v)                 = " << XMVectorAbs(v) << endl;
 	cout << "XMVectorCos(w)                 = " << XMVectorCos(w) << endl;
 	cout << "XMVectorLog(u)                 = " << XMVectorLog(u) << endl;
@@ -47,7 +53,7 @@ int main()
 
 	cout << "XMVectorMultiply(u, v)         = " << XMVectorMultiply(u, v) << endl;
 	cout << "XMVectorSaturate(q)            = " << XMVectorSaturate(q) << endl;
-	cout << "XMVectorMin(p, v               = " << XMVectorMin(p, v) << endl;
+	cout << "XMVectorMin(p, v)              = " << XMVectorMin(p, v) << endl;
 	cout << "XMVectorMax(p, v)              = " << XMVectorMax(p, v) << endl;
 
 	return 0;

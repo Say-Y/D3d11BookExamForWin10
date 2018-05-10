@@ -1,4 +1,4 @@
-*작업 내용
+﻿*작업 내용
 	*공통 사항
 		- 프로젝트 링커 인풋 
 			디버그 : d3d11.lib;Effects11d.lib
@@ -145,5 +145,5 @@
 			
 			mStoneTexSRV -> mFloorTexSRV
 		
-	*문의사항
-		progsecu@gmail.com 으로 주시면 알고있는 한도 안에서 답변 드리겠습니다.
+	*문의
+		progsecu@gmail.com
