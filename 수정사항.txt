@@ -137,7 +137,7 @@
 				float vy = (-2.0f*sy/mClientHeight + 1.0f) / P.r[1].m128_f32[1];
 
 		- 오타 몇개 수정.
-			찾아보면 더 있으나, 딱히 실행에 문재가 없으므로 변경 중단.
+			찾아보면 더 있으나, 딱히 실행에 문가 없으므로 변경 중단.
 			17,19장 변경
 			L"Textures/floor.dds", &texResource, &mStoneTexSRV));
 			
